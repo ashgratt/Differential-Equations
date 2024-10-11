@@ -1,3 +1,6 @@
+# This file solves a differential equation that models the temperature over time in a vessel filled with liquid that is
+# being continuously recirculated via an in-line heat exchanger. This includes heat loss to the environment.
+
 import numpy as np
 import scipy as sp
 from scipy.integrate import odeint 
